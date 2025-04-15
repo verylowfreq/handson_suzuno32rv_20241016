@@ -1,12 +1,10 @@
-#define PIN_LED PA5
-
 void setup() {
-  pinMode(PIN_LED, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(PIN_LED, HIGH);
+  digitalWrite(LED_BUILTIN, HIGH);
   delay(500);
-  digitalWrite(PIN_LED, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
   delay(500);
 }

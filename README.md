@@ -4,3 +4,5 @@
 - 2_servo
 - 3_usbkeyboard
 - 4_switch_input
+
+https://raw.githubusercontent.com/verylowfreq/board_manager_ch32/main/package_ch32v_index_sz.json
